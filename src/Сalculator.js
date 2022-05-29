@@ -3,6 +3,7 @@ import Products from "./Products";
 import TotalCost from "./TotalCost";
 import {useState} from 'react';
 import reactUuid from 'react-uuid';
+
 function id(){
     return reactUuid();
 }
@@ -21,7 +22,6 @@ function Calculator(){
         setValue2('');
         setValue3('');
     }
-
 
     return <div className="parent">
         <h2>Product Calculator</h2>
